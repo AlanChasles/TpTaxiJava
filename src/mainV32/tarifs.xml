@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<tarifs>
+	<departement>
+		<dept>21</dept>
+		<pec>2</pec>
+		<tarifKmSemaine>1.72</tarifKmSemaine>
+		<tarifHoraireSemaine>21.93</tarifHoraireSemaine>
+		<tarifKmDimanche>1.29</tarifKmDimanche>
+		<tarifHoraireDimanche>21.93</tarifHoraireDimanche>
+	</departement>
+
+	<departement>
+		<dept>25</dept>
+		<pec>2.1</pec>
+		<tarifKmSemaine>1.66</tarifKmSemaine>
+		<tarifHoraireSemaine>22.5</tarifHoraireSemaine>
+		<tarifKmDimanche>1.2</tarifKmDimanche>
+		<tarifHoraireDimanche>22.5</tarifHoraireDimanche>
+	</departement>
+
+	<departement>
+		<dept>39</dept>
+		<pec>2.1</pec>
+		<tarifKmSemaine>1.66</tarifKmSemaine>
+		<tarifHoraireSemaine>22.5</tarifHoraireSemaine>
+		<tarifKmDimanche>1.23</tarifKmDimanche>
+		<tarifHoraireDimanche>25</tarifHoraireDimanche>
+	</departement>
+
+	<departement>
+		<dept>44</dept>
+		<pec>2.2</pec>
+		<tarifKmSemaine>1.58</tarifKmSemaine>
+		<tarifHoraireSemaine>24.19</tarifHoraireSemaine>
+		<tarifKmDimanche>1.19</tarifKmDimanche>
+		<tarifHoraireDimanche>24.19</tarifHoraireDimanche>
+	</departement>
+
+	<departement>
+		<dept>72</dept>
+		<pec>2.15</pec>
+		<tarifKmSemaine>1.58</tarifKmSemaine>
+		<tarifHoraireSemaine>22.86</tarifHoraireSemaine>
+		<tarifKmDimanche>1.19</tarifKmDimanche>
+		<tarifHoraireDimanche>22.86</tarifHoraireDimanche>
+	</departement>
+
+	<departement>
+		<dept>73</dept>
+		<pec>2.4</pec>
+		<tarifKmSemaine>1.68</tarifKmSemaine>
+		<tarifHoraireSemaine>25.4</tarifHoraireSemaine>
+		<tarifKmDimanche>1.26</tarifKmDimanche>
+		<tarifHoraireDimanche>25.4</tarifHoraireDimanche>
+	</departement>
+
+	<departement>
+		<dept>74</dept>
+		<pec>3.15</pec>
+		<tarifKmSemaine>1.84</tarifKmSemaine>
+		<tarifHoraireSemaine>17.3</tarifHoraireSemaine>
+		<tarifKmDimanche>1.38</tarifKmDimanche>
+		<tarifHoraireDimanche>17.3</tarifHoraireDimanche>
+	</departement>
+
+	<departement>
+		<dept>75</dept>
+		<pec>2.5</pec>
+		<tarifKmSemaine>1.24</tarifKmSemaine>
+		<tarifHoraireSemaine>0</tarifHoraireSemaine>
+		<tarifKmDimanche>1.5</tarifKmDimanche>
+		<tarifHoraireDimanche>0</tarifHoraireDimanche>
+	</departement>
+
+	<departement>
+		<dept>85</dept>
+		<pec>2.3</pec>
+		<tarifKmSemaine>1.6</tarifKmSemaine>
+		<tarifHoraireSemaine>22.2</tarifHoraireSemaine>
+		<tarifKmDimanche>1.2</tarifKmDimanche>
+		<tarifHoraireDimanche>22.2</tarifHoraireDimanche>
+	</departement>
+
+	<departement>
+		<dept>90</dept>
+		<pec>2.2</pec>
+		<tarifKmSemaine>1.66</tarifKmSemaine>
+		<tarifHoraireSemaine>21</tarifHoraireSemaine>
+		<tarifKmDimanche>1.15</tarifKmDimanche>
+		<tarifHoraireDimanche>21</tarifHoraireDimanche>
+	</departement>
+
+</tarifs>
