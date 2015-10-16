@@ -1,12 +1,12 @@
-package mainV2;
+package mainV42;
 
 import java.util.List;
 import java.util.Scanner;
 
 public class Calcul {
-
+	
 	static private Scanner saisie = new Scanner(System.in);
-
+	
 	/**
 	 * 
 	 * @param liste
@@ -26,15 +26,15 @@ public class Calcul {
 			System.out.print("Dans quel département le déplacement a-t-il eu lieu ? ( saisir le numéro ) : ");
 			try{
 				i = saisie.nextInt();
-
+				
 				for(int j=0; j<=liste.size(); j++){
-
+					
 					if(i == liste.get(j).getDept()){
 						bool = true;
 						break;
 
 					}
-
+					
 				}
 
 			}
@@ -45,9 +45,9 @@ public class Calcul {
 			}	
 		}
 		return i;
-
+		
 	}
-
+	
 	/**
 	 * @return
 	 * Retourne une chaîne de caractères que l'utilisateur saisie.
@@ -60,18 +60,18 @@ public class Calcul {
 		do{
 			System.out.print("Le voyage s'est-il déroulé en semaine ou un dimanche ? ( saisir 'semaine' ou 'dimanche') :");
 			try{
-				s = saisie.next();
+			s = saisie.next();
 			}
 			catch(Exception e){
 				String S = saisie.next();
 				System.out.println("Le type de données saisie n'est pas celui attendu");
-
+				
 			}
-		}while(s.equalsIgnoreCase("semaine") && s.equalsIgnoreCase("dimanche"));
+			}while(s.equalsIgnoreCase("semaine") && s.equalsIgnoreCase("dimanche"));
 		return s;
-
+		
 	}
-
+	
 	/**
 	 * 
 	 * 
@@ -88,8 +88,8 @@ public class Calcul {
 		}while(d==0);
 		return d;
 	}
-
-
+	
+	
 	/**
 	 * 
 	 * 
@@ -106,8 +106,8 @@ public class Calcul {
 
 		return d;
 	}
-
-
+	
+	
 	/**
 	 * 
 	 * @param liste
@@ -140,7 +140,7 @@ public class Calcul {
 				}
 				else {
 					res = liste.get(i).getPriseEnCharge() + (var.getKm()*liste.get(i).getTarifKmDimanche());
-
+					
 					if(var.getDurée() > 0){
 						res += (var.getDurée()*liste.get(i).getTarifHoraireDimanche());
 					}
@@ -154,5 +154,5 @@ public class Calcul {
 		return res;
 
 	}
-
+	
 }
